@@ -1,0 +1,72 @@
+SOFTEX - PROJETO03
+
+INSTRUÇÕES DO PROJETO
+
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+
+Apresente as informações solicitadas no final do cadastro.
+
+
+RESPOSTA
+
+1º - PROPOSTA DE VARIAVEIS
+
+1 - variável nome - tipo caractere
+2 - variável endereco - tipo caractere
+3 - variável cidade - tipo caractere
+4 - variável cpf - tipo caractere
+5 - variável rg - tipo caractere
+6 - variável idade - tipo inteiro
+7 - variável pai - tipo caractere
+8 - variável mae - tipo caractere
+9 - variável peso - tipo real
+10 - variavel renda - tipo real
+
+======================
+3º - RESPOSTA
+
+============
+ALGORITMO
+
+inicio
+var nome, endereco, cidade, cpf, rg, pai, mae: caractere
+var idade: inteiro
+var peso, renda: real
+
+escreva "Cadastro do usuário"
+leia (nome);
+leia (endereco);
+leia (cidade);
+leia (cpf);
+leia (rg);
+leia (pai);
+leia (mae);
+leia (peso);
+leia (renda);
+
+escreva "Essas foram as informações cadastradas"
+
+escreva (nome);
+escreva (endereco)
+escreva (cidade);
+escreva (cpf);
+escreva (rg);
+escreva (pai);
+escreva (mae);
+escreva (peso);
+escreva (renda);
+escreva "Obrigado!!"
+fim
+
+=======================
