@@ -1,0 +1,52 @@
+SOFTEX - PROJETO02
+
+INSTRUÇÕES DO PROJETO
+
+Em uma sala de aula, há vinte e cinco alunos. Entre eles, existem os grupos dos que gostam de Português (P) e 
+os que gostam de Matemática (M). Eles são divididos conforme a ilustração 1 em anexo (abaixo transcrita):
+
+P P M P M
+M P M M P
+M M M P M
+M P P M P
+P M M P M 
+
+Alunos que preferem PORTUGUÊS - 11
+Alunos que preferem MATEMÁTICA - 14
+TOTAL DE ALUNOS - 25
+
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo
+(abaixo transcrita):
+
+P P M P M P 
+M P M M P M 
+M M M P M P 
+M P P M P P 
+P M M P M M 
+M P P P M P 
+
+Alunos que preferem PORTUGUÊS - 18
+Alunos que preferem MATEMÁTICA - 18
+TOTAL DE ALUNOS - 36
+
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das
+disciplinas havia trocado de lugar com alguem que prefere a outra, e a turma ficou organizada conforme a ilustração 3 
+em anexo (abaixo transcrita)
+
+
+P P M P M P 
+M P M M P M 
+M M M P M P 
+M P P M P P 
+P M M P P M 
+M P P P M P
+
+Alunos que preferem PORTUGUÊS - 19
+Alunos que preferem MATEMÁTICA - 17
+TOTAL DE ALUNOS - 36
+
+
+Não há no projeto a indicação do que se pede. De toda forma, o contexto leva a crer que seja para identificar o aluno que mudou
+de disciplina.  
+O ALUNO QUE MUDOU DE DISCIPLINA DE PREFERÊNCIA FOI O LOCALIZADO NA LINHA 5 / COLUNA 5
+
