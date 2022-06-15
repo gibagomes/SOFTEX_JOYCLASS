@@ -1,0 +1,65 @@
+PROJETO - SOFTEX
+Enunciado
+Aristóteles, Sócrates e Platão estavam disputando uma competição de perguntas nas disciplinas de Física
+, Matemática e Química. Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar.
+
+Sabendo que:
+1 - Aristóteles não ficou em primeiro em Química;
+2 - Sócrates perdeu para Platão em Física;
+3 - Platão acertou mais que Aristóteles em Matemática.
+
+Informe quem ficou em 1º, 2º e 3º lugar em cada disciplina.
+
+RESPOSTA
+
+De acordo com o enunciado:
+1ª - Platão acertou mais que Aristóteles em matemática - Logo aristóteles não é o primeiro em matemática
+2ª - Aristóteles foi 1º em física ou matemática - Logo aristóteles é o primeiro em física
+
+Física
+1º Aristóteles
+========================
+3ª - Sócrates perdeu para Platão em física - Logo, Sócrates foi o 2º em física e Platão o 3º
+4ª - Sócrates não pode ser 3º em matemática ou química porque foi 3º em física
+
+Física
+1º Aristóteles
+2º Platão
+3º Sócrates
+======================== 
+5ª - Platão não pode ser mais 2º em química ou matemática porque já foi em física
+6ª - Platão acertou mais que Aristóteles em matemática 
+7ª - Aristóteles não pode mais ser 1º e Platão não pode mais ser 2º - Logo Platão é o primeiro em Matemática
+
+Matemática
+1º - Platão
+========================
+8ª - Sócrates não pode mais ser 3º - Logo tem que ficar em 2º na matemática
+Matemática
+1º - Platão
+2º - Sócrates 
+3º - Aristóteles
+
+9ª - Por eliminação, em química temos:
+
+Química
+1º - Sócrates
+2º - Aristóteles
+3º - Platão
+
+RESPOSTAS
+============
+Física
+1º Aristóteles
+2º Platão
+3º Sócrates
+===========
+Matemática
+1º - Platão
+2º - Sócrates 
+3º - Aristóteles
+===========
+Química
+1º - Sócrates
+2º - Aristóteles
+3º - Platão
