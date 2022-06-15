@@ -1,0 +1,41 @@
+SOFTEX - PROJETO03
+
+INSTRUÇÕES DO PROJETO
+
+Em uma inscrição, o usuário informou os seguintes dados:
+ - Nome: José Almeida da Silva
+ - CPF: 12345678900
+ - RG: 9517530
+ - Altura: 1,78
+ - Endereço: Rua A, 380 - Centro - Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta de variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizando o comando de atribuiçaõ.
+
+
+RESPOSTA
+
+1º - PROPOSTA DE VARIAVEIS
+
+1 - variável nome - tipo caractere
+2 - variável cpf - tipo caractere
+3 - variável rg - tipo caractere
+4 - variável altura - tipo real
+5 - variavel endereco - tipo caractere
+
+======================
+2º DECLARAÇÃO DE VARIÁVEIS
+
+var nome, cpf, rg, endereco: caractere
+
+=======================
+3º ATRIBUIÇÃO DE VARIÁVEIS
+
+nome <- "José Almeida da Silva"
+cpf <- "12345678900"
+rg <- "9517530"
+altura <- 1,78
+endereco <- "Rua A, 380 - Centro - Recife/PE"
+
