@@ -41,6 +41,7 @@ var resposta211: caractere
 var resposta22: caractere
 var resposta3: caractere
 var resposta31: caractere
+var resposta32: caractere
 
 escreva "escolha um dos transportes abaixo. Vou tentar advinhar a partir das suas respostas."
 escreva " trator
@@ -129,13 +130,20 @@ senao
         leia(resposta3)
         se resposta3 = "sim"
         entao
-            escreva "seu transporte escolhido foi o navio"
-        senao
-            escreva "tem uma capacidade media de carga?"
+            escreva "pode ficar submerso?"
             leia(resposta31)
             se resposta31 = "sim"
+            entao
+                escreva "seu transporte escolhido foi o navio"
+            senao
+                escreva "seu transporte escolhido foi o navio"
+        senao       
+            escreva "tem uma capacidade media de carga?"
+            leia(resposta32)
+            se resposta32 = "sim"
             entao
                 escreva "seu transporte escolhido foi o barco"
             senao
                 escreva "seu transporte escolhido foi a lancha"
+
 escreva "Fim de Jogo!!"
