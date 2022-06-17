@@ -1,0 +1,141 @@
+SOFTEX - PROJETO05
+
+INSTRUÇÕES DO PROJETO
+
+Elabore um algoritmo que possa descobrir, através de perguntas e respostas, qual meio de transporte o usuário
+está pensando.
+O usuário deverá escolher uma das seguintes opções:
+
+- trator
+- moto
+- bicicleta
+- trem
+- carro
+- caminhao
+- onibus
+- paraquedas
+- balao
+- aviao
+- helicoptero
+- submarino
+- barco
+- navio
+- lancha
+
+RESPOSTA
+
+escreva "====================================="
+escreva "Jogo - advinhando o seu transporte!"
+escreva "====================================="
+
+var resposta1: caractere
+var resposta11: caractere
+var resposta111: caractere
+var resposta12: caractere
+var resposta121: caractere
+var resposta122: caractere
+var resposta1221: caractere
+var resposta2: caractere
+var resposta21: caractere
+var resposta211: caractere
+var resposta22: caractere
+var resposta3: caractere
+var resposta31: caractere
+
+escreva "escolha um dos transportes abaixo. Vou tentar advinhar a partir das suas respostas."
+escreva " trator
+	  moto
+	  bicicleta
+	  trem
+	  carro
+	  caminhao
+	  onibus
+	  paraquedas
+	  balao
+	  aviao
+	  helicoptero
+	  barco
+	  navio
+	  lancha
+
+escreva "Agora, responda as perguntas abaixo:"
+ 
+escreva "1ª pergunta: Seu transporte é terrestre?"
+leia(resposta1)
+se resposta1 = "sim" 
+entao
+    escreva "pode transportar grandes cargas?"
+    leia(resposta11)
+    se resposta11 = "sim" 
+    entao
+        escreva "anda sob trilhos?"
+        leia(resposta111)
+        se resposta111 = "sim" 
+        entao
+            escreva "seu transporte escolhido foi o trem"
+        senao
+            escreva "seu transporte escolhido foi o caminhao"
+    senao  
+        escreva "transporta mais de 7 pessoas ao mesmo tempo?"
+        leia(resposta12)
+        se resposta12 = "sim"
+        entao
+            escreva "seu transporte escolhido foi o onibus"
+        senao
+            escreva "transporta mais de 2 pessoas ao mesmo tempo?"
+            leia(resposta121)
+            se resposta121 = "sim"
+            entao
+                escreva "seu transporte escolhido foi o carro"
+            senao
+                escreva "o transporte exige CNH?"
+                leia(resposta122)
+                se resposta122 = "sim"
+                entao    
+                    escreva "seu transporte escolhido foi a moto"
+                senao
+                    escreva "transporta apenas 1 pessoa?"
+                    leia(resposta1221)                    
+                    se resposta1221 = "sim"
+                    entao
+                        escreva "seu transporte escolhido foi o trator"
+                    senao
+                        escreva "seu transporte escolhido foi a bicicleta" 
+senao
+    escreva "2ª pergunta: Seu transporte é aéreo?"
+    leia(resposta2)
+    se resposta2 = "sim"
+    entao
+        escreva "é motorizado?"
+        leia(resposta21)
+        se resposta21 = "sim"
+        entao
+            escreva "faz uso de hélices?"
+            leia(resposta211)
+            se resposta211 = "sim" 
+                escreva "seu transporte escolhido foi o helicoptero"
+            senao
+                escreva "seu transporte escolhido foi o aviao"
+        senao
+            escreva "tem capacidade para apenas 1 pessoa?"
+            leia(resposta22)
+            se resposta22 = "sim"
+            entao
+                escreva "seu transporte escolhido foi o paraquedas"
+            senao
+                escreva "seu transporte escolhido foi o balão"  
+    senao
+        escreva "tem grande capacidade de carga?"
+        leia(resposta3)
+        se resposta3 = "sim"
+        entao
+            escreva "seu transporte escolhido foi o navio"
+        senao
+            escreva "tem uma capacidade media de carga?"
+            leia(resposta31)
+            se resposta31 = "sim"
+            entao
+                escreva "seu transporte escolhido foi o barco"
+            senao
+                escreva "seu transporte escolhido foi a lancha"
+escreva "Fim de Jogo!!"
