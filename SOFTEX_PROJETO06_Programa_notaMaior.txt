@@ -1,0 +1,54 @@
+PROJETO 6 - SOFTEX
+
+Instruções do projeto
+
+Após uma prova de vestibular, uma escola quer identificar quantos dos seus alunos foram aprovados em cada turma
+de formandos. Ela quer saber qual aluno teve a maior nota e de qual turma ele é. Nessa escola, há quatro turmas
+(A, B, C e D) com vinte e cinco alunos cada.
+
+
+Elabore um algoritmo que solicite o nome e a nota do vestibular aos alunos. Depois, informe quantos deles foram
+aprovados, de que turma são, qual a maior nota em cada turma e qual aluno teve a maior nota de todas.
+Para que o aluno seja aprovado no vestibular, ele deverá obter nota maior ou igual a 7.
+
+ATENÇÃO: As notas por turma não podem se repetir.
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link
+no campo ao lado para que outros desenvolvedores possam analisá-lo.
+=====================================
+
+RESPOSTA
+
+escreva ("=====================================")
+escreva ("Programa - Média Alunos")
+escreva ("=====================================")
+
+var nome: caractere
+var turma: caractere
+var nota: real
+var contador: inteiro
+var notaMaior: inteiro
+var primeiro: inteiro
+var aprovado: caractere
+
+escreva ("Nome: ")
+leia(nome);
+
+escreva ("Turma: ")
+leia(turma);
+
+escreva ("Nota no vestibular: ")
+leia(nota);
+
+contador <- 0;
+notaMaior <- 0;
+primeiro <-"";
+
+se nota > 7 entao
+aprovado <- "aprovado";
+contador <- contador + 1;
+
+se nota > notaMaior
+notaMaior <- nota
+primeiro <- nome
+
+      
